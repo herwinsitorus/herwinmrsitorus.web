@@ -3,43 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <h1>Personal Website</h1>
-    <p>Selamat datang di website pribadi saya</p>
-    <nav><a href="index.html">Home</a> |
-        <a href="About.html">About</a> |
-        <a href="Project.html">Project</a> |
-        <a href="Contact.html">Contact</a> |
-        <a href="experience.html">Experience</a>
+    <nav class="navbar">
+        <div class="nav-kiri"> <a href="index.html"> <strong>Herwin</strong> </a> </div>
+
+        <selection id="navigation">
+            <div class="nav-about"><a href="About.html"> <strong>About</strong> </a> </div>
+            <div class="nav-project"><a href="Project.html"> <strong>Project</strong> </a> </div>
+            <div class="nav-contact"><a href="Contact.html"> <strong>Contact</strong> </a> </div>
+            <div class="nav-experience"><a href="experience.html"> <strong>Experience</strong> </a> </div>
+        </selection>
     </nav>
 
-    <hr>
-    <h2> Halo, Saya Herwin M R Sitorus</h2>
 
-    <img src="asset/images/herwin.jpeg" alt="Foto profil mahasiswa" width="240">
-    <h3>Tentang saya</h3>
-    <p>Saya Herwin M R Sitorus seorang mahasiwa program studi Pendidikan Sistem dan Teknologi Informasi di Universitas
-        Pendidikan Indonesia.
-        <br>Saya memiliki ketertarikan di bidang ilmu informatika, dan technopreneurship
-    </p>
-    <p>Website ini dibuat untuk mendapatkan informasi saya, mengenai beberapa project, selain itu anda dapat menghubungi
-        saya melalui menu contact</p>
-    <h2>Kemampuan & Kompetensi</h2>
-    <ul>
-        <li>Microsoft office</li>
-        <li>Visual Studio Code</li>
-        <li>Figma</li>
-    </ul>
-    <p>Silahkan kunjungi halaman di bawah ini untuk mengetahui profil saya lebih jauh</p>
-    <nav>
-        <p> Silahkan Kunjungi halaman <a href="About.html">About</a> untuk mengetahui profil saya lebih lanjut</p>
-    </nav>
+    <section class="introduction-section">
+        <div class="introduction-text">
+            <P class="greeting">Halo Semuanya, Saya</P>
+            <h1>Herwin M R Sitorus</h1>
+            <p class="bio">seorang mahasiswa <a
+                    href="https://www.instagram.com/psti.purwakarta?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw=="
+                    target="_blank">Pendidikan Sistem dan Teknologi Informasi</a> </p>
+            <p class="description">Portofolio ini menampilkan proyek dan kegiatan saya selama berkuliah di <a
+                    href="https://www.upi.edu/id">Universitas Pendidikan Indonesia</a></p>
+            <a href="Contact.html" class="botton-contact"><strong>Contact</strong></a>
+        </div>
 
-    <hr>
-    <p>©2026 Herwin M R Sitorus. Dibuat menggunakan HTML.</p>
+        <div class="image"></div>
+        <div class="image-container">
+            <img src="asset/images/herwin.jpeg" alt="Herwin" width="400">
+        </div>
+    </section>
+
 </body>
+
+<footer class="site-footer">
+    <div class="social-icons">
+        <a href="tel:+6281316152676" class="social-link"><i class="fas fa-phone"></i></a>
+        <a href="mailto:herwin.sitorus1420@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/herwin-m-r-sitorus-a14607387?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/herwinsitorus" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/winnn.ajaaa?stkn=MnR4dmduZXhleTdx" target="_blank" class="social-link"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@herwinm.r.sitorus9349?si=heF-zU9iH3Peby-E" target="_blank" class="social-link"><i
+                class="fab fa-youtube"></i></a>
+        <a href="https://x.com/winwithouther" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <p class="footer-text">
+        Dibuat oleh <span class="author-name">Herwin M R Sitorus</span>, menggunakan <span class="tech-name">HTML &
+            CSS</span>.
+    </p>
+</footer>
 
 </html>

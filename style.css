@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a{
+   color:#040169;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 40px;
+    align-items: center;
+    color: white;
+   }
+
+#navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav a:hover {
+   color: white;
+}
+
+.nav-about, .nav-project, .nav-contact, .nav-experience {
+display: inline-block;
+padding: 8px 16px;
+border-radius: 4px;
+margin: 0 5px;
+color: white;
+}
+    
+nav a{
+   text-decoration: none;
+}
+
+.introduction-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.introduction-text {
+    flex: 1;
+}
+
+.greeting {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.introduction-text h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 10px 0;
+}
+
+.bio {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.botton-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #040169;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.botton-contact:hover {
+    background-color: #020038;
+}
+
+.site-footer {
+    background-color: #00123a;
+    padding: 40px 20px;
+    border-top: 1px solid #1e293b; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+
+.social-link:hover {
+    background-color: #ffffff;
+    color: #0f172a;
+    transform: translateY(-3px);
+}
+
+
+.footer-text {
+    color: #94a3b8; 
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+.author-name {
+    color: #a855f7;
+    font-weight: 600;
+}
+
+.tech-name {
+    color: #0ea5e9;
+    font-weight: 600;
+}
