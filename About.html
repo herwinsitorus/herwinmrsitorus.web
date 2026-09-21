@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -21,67 +22,56 @@
         </selection>
     </nav>
 
-    <h2>Profil singkat</h2>
-    <p>Nama saya <strong>Herwin M R Sitorus</strong>, mahasiswa Pendidikan Sistem dan Teknologi Informasi di Universitas
-        Pendidikan Indonesia yang memiliki ketertarikan di bidang ilmu informatika, dan technopreneurship.</p>
-    <p>Saya sedang belajar bahasa HTML untuk memahami bahasa python yang sebelumnya telah di pelajari namun belum di
-        kuasai karena belum belajar fondasinya terlebih dahulu.</p>
-    <h2> Data Diri</h2>
+    <selection class="about">
+        <div class="about-me">
+            <h1 class="title">Profil singkat</h1>
+            <p>Saya adalah seorang mahasiswa <stong>Pendidikan Sistem dan Teknologi Informasi</stong> di <strong>Universitas
+                Pendidikan
+                Indonesia</strong>
+                yang berfokus pada <strong>pedagogi, informatika, dan <em>technopreneur.</em></strong>saya berfokus pada minat saya dalam
+                bdiang teknologi informasi dalam mengembangkan <strong>website</strong> serta pengembangan <storng>aplikasi</storng> maupun <strong>game</strong>.</p>
+        </div>
+        <div class="skills">
+            <h1 class="subtitle">Skills</h1>
+            <p>Untuk mengembangkan website dan aplikasi, saya memiliki kemampuan dalam:</p>
+            <p> <strong>Backend:</strong> HTML, CSS, Python</p>
+            <p> <strong>Database:</strong>MySQL, MariaDB</p>
+            <p> <strong>UI/UX:</strong> Figma</p>
+        </div>
+    </selection>
 
-    <table border="1" cellspacing="2" cellpadding="10">
-        <thead>
-            <tr>
-                <th>Data</th>
-                <th>Keterangan</th>
-            </tr>
-            <tr>
-                <td>Nama</td>
-                <td>Herwin M R Sitorus</td>
-            </tr>
-            <tr>
-                <td>NIM</td>
-                <td>2507920</td>
-            </tr>
-            <tr>
-                <td>Program Studi</td>
-                <td>PSTI</td>
-            </tr>
-            <tr>
-                <td>Semester</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td>herwin.sitorus@student.upi.edu</td>
-            </tr>
-        </thead>
-    </table>
-    <h2>Hobi</h2>
-    <ol>
-        <li>Belajar hal baru</li>
-        <li>Bermain Game</li>
-        <li>Berenang</li>
-        <li>Membaca Novel</li>
-    </ol>
+    <section class="pendidikan">
+        <h1 class="judul">Riwayat Pendidikan</h1>
+        <p class="deskripsi"> <strong>Pernah dan sedang balajar di instansi pendidikan berikut</strong></p>
+        <div class="gambar">
+            <img class="sd" src="asset/images/sd.webp" alt="Logo SD" width="150">
+            <img class="smp" src="asset/images/smp.png" alt="Logo SMP" width="200">
+            <img class="sma" src="asset/images/sma.png" alt="Logo SMA" width="150">
+            <img class="kampus" src="asset/images/kampus.png" alt="Logo Kampus" width="150">
+        </div>
+    </section>
 
-    <h2>Riwayat Pendidikan</h2>
-    <ul>
-        <li>SDN 3 Mulyamekar - 2018</li>
-        <li>SMP Negeri 5 Purwakarta - 2021</li>
-        <li>SMAN Babakancikao - 2024</li>
-    </ul>
 
-    <h2>Kemampuan & Kompetensi</h2>
-    <ul>
-        <li>Microsoft office</li>
-        <li>Visual Studio Code</li>
-        <li>Figma</li>
-    </ul>
-    <p>Silahkan kunjungi halaman di bawah ini untuk mengetahui profil saya lebih jauh</p>
-    <nav>
-        <p> Silahkan Kunjungi halaman <a href="About.html">About</a> untuk mengetahui profil saya lebih lanjut</p>
-    </nav>
-
-    <hr>
-    <p>©2026 Herwin M R Sitorus. Dibuat menggunakan HTML.</p>
 </body>
+
+<footer class="site-footer">
+    <div class="social-icons">
+        <a href="tel:+6281316152676" class="social-link"><i class="fas fa-phone"></i></a>
+        <a href="mailto:herwin.sitorus1420@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/herwin-m-r-sitorus-a14607387?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/herwinsitorus" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/winnn.ajaaa?stkn=MnR4dmduZXhleTdx" target="_blank" class="social-link"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@herwinm.r.sitorus9349?si=heF-zU9iH3Peby-E" target="_blank" class="social-link"><i
+                class="fab fa-youtube"></i></a>
+        <a href="https://x.com/winwithouther" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <p class="footer-text">
+        Dibuat oleh <span class="author-name">Herwin M R Sitorus</span>, menggunakan <span class="tech-name">HTML &
+            CSS</span>.
+    </p>
+</footer>
+
+</html>

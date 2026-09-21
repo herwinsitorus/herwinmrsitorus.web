@@ -6,6 +6,7 @@
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -20,41 +21,39 @@
         </selection>
     </nav>
 
-    <h2>Informasi Kontak</h2>
-    <p>Jika Anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui form berikut. <br>Anda juga dapat
-        mengirim email ke <a href="mailto:herwin.sitorus@student.upi.edu"
-            style="color:blue">herwin.sitorus@student.upi.edu</a></p>
-    <h2>Form Pesan</h2>
+    <h2 class="judul">Informasi Kontak</h2>
+    <p class="deskripsi">Jika Anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui form berikut. <br>Anda juga dapat
+        mengirim email ke <a href="mailto:herwin.sitorus@student.upi.edu">herwin.sitorus@student.upi.edu</a></p>
 
-    <form>
-        <table border="1px solid" width="50%" style="border-collapse: collapse">
+    <form class="form">
+        <table>
             <tr>
-                <td colspan="2" style="text-align: center"> <strong>Form Data Kontak</strong>
+                <td class="baris-1" colspan="2" style="text-align: center"> <strong>Form Data Kontak</strong>
                 </td>
             <tr>
-                <td style="text-align: right;" class=" label">Nama Lengkap:</td>
-                <td class="input"><input type="text" name="nama" /></td>
+                <td class="baris-2" style="text-align: right;" class=" label">Nama Lengkap:</td>
+                <td class="baris-2" class="input"><input type="text" name="nama" /></td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Email:</td>
-                <td class="input"><input type="email" name="email" /></td>
+                <td class="baris-3" style="text-align: right;" class="label">Email:</td>
+                <td class="baris-3" class="input"><input type="email" name="email" /></td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Nomor Telepon:</td>
-                <td class="input"><input type="number" name="Nomor Telepon" /></td>
+                <td class="baris-4" style="text-align: right;" class="label">Nomor Telepon:</td>
+                <td class="baris-4" class="input"><input type="number" name="Nomor Telepon" /></td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Jenis Kelamin:</td>
-                <td class="input"><input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki <input
+                <td class="baris-5" style="text-align: right;" class="label">Jenis Kelamin:</td>
+                <td class="baris-5" class="input"><input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki <input
                         type="radio" name="perempuan" value="Perempuan" /> Perempuan</td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Tanggal Lahir:</td>
-                <td class="input"><input type="date" name="tanggal_lahir" /></td>
+                <td class="baris-6" style="text-align: right;" class="label">Tanggal Lahir:</td>
+                <td class="baris-6" class="input"><input type="date" name="tanggal_lahir" /></td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Topik Pesan :</td>
-                <td>
+                <td class="baris-7" style="text-align: right;" class="label">Topik Pesan :</td>
+                <td class="baris-7">
                     <select name="Topik Pesan">
                         <option></option>
                         <option value="Diskusi">Diskusi</option>
@@ -64,35 +63,51 @@
                 </td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Jenis Pesan:</td>
-                <td class="input"><input type="radio" name="Pertanyaan" value="Pertanyaan" /> Pertanyaan
+                <td class="baris-8" style="text-align: right;" class="label">Jenis Pesan:</td>
+                <td class="baris-8" class="input"><input type="radio" name="Pertanyaan" value="Pertanyaan" /> Pertanyaan
                     <input type="radio" name="Saran" value="Saran" /> Saran
                     <input type="radio" name="Lainnya" value="Lainnya"> Lainnya
                 </td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Pesan :</td>
-                <td class="textarea"><textarea name="alamat" rows="5" cols="33"></textarea></td>
+                <td class="baris-9" style="text-align: right;" class="label">Pesan :</td>
+                <td class="baris-9" class="textarea"><textarea name="alamat" rows="5" cols="33"></textarea></td>
             </tr>
             <tr>
-                <td style="text-align: right;" class="label">Salinan Pesan :</td>
-                <td><input type="checkbox" name="Salinan Pesan" value="Kirim salinan pesan ke email saya" /> Kirim
+                <td class="baris-10" style="text-align: right;" class="label">Salinan Pesan :</td>
+                <td class="baris-10"><input type="checkbox" name="Salinan Pesan" value="Kirim salinan pesan ke email saya" /> Kirim
                     salinan pesan ke email saya </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align: center">
+                <td class="baris-11" colspan="2" style="text-align: center">
                     <input type="submit" value="Kirim Pesan" />
                     <input type="reset" value="Reset" />
                 </td>
             </tr>
         </table>
     </form>
-    <p> <em>Catatan: Karena website ini hanya mengunakan HTML, form belum terhubung ke server/database.</em> </p>
-    <hr>
-    <nav>
-        <a href="index.html">Kembali ke Home</a>
-    </nav>
-    <p>©2026 Herwin M R Sitorus.</p>
+    <p class="deskripsi">Catatan: Karena website ini hanya mengunakan HTML, form belum terhubung ke server/database.</p>
+
 </body>
+
+<footer class="site-footer">
+    <div class="social-icons">
+        <a href="tel:+6281316152676" class="social-link"><i class="fas fa-phone"></i></a>
+        <a href="mailto:herwin.sitorus1420@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/herwin-m-r-sitorus-a14607387?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/herwinsitorus" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/winnn.ajaaa?stkn=MnR4dmduZXhleTdx" target="_blank" class="social-link"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@herwinm.r.sitorus9349?si=heF-zU9iH3Peby-E" target="_blank" class="social-link"><i
+                class="fab fa-youtube"></i></a>
+        <a href="https://x.com/winwithouther" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <p class="footer-text">
+        Dibuat oleh <span class="author-name">Herwin M R Sitorus</span>, menggunakan <span class="tech-name">HTML &
+            CSS</span>.
+    </p>
+</footer>
 
 </html>

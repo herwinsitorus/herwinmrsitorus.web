@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #f8fafc;
 }
 
 nav a{
@@ -15,7 +19,7 @@ nav a{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 40px;
     align-items: center;
-    color: white;
+    color: rgb(1, 1, 1);
    }
 
 #navigation {
@@ -25,7 +29,7 @@ nav a{
 }
 
 nav a:hover {
-   color: white;
+   color: rgb(0, 0, 0);
 }
 
 .nav-about, .nav-project, .nav-contact, .nav-experience {
@@ -69,6 +73,7 @@ nav a{
     font-size: 1rem;
     color: #333;
     margin-bottom: 15px;
+    text-decoration: none;
 }
 
 .description {
@@ -89,6 +94,201 @@ nav a{
 
 .botton-contact:hover {
     background-color: #020038;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.title{
+    color: #040169;
+}
+
+.subtitle{
+    color: #040169;
+}
+
+.about-me{
+    flex: 1;
+    color: #555;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills{
+    flex: 1;
+    color: #555;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.judul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #040169;
+}
+
+.deskripsi{
+    display: flex;
+    justify-content: center;
+    color: #555;
+
+}
+
+.gambar{
+  display: flex;
+  justify-content: center;
+}
+
+.sd{
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.smp{
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sma{
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.kampus{
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.proyek-1{
+    border-radius: 12px;
+}
+
+.proyek-2{
+    border-radius: 5px;
+}
+
+.proyek-3{
+    border-radius: 5px;
+}
+
+.proyek-4{
+    border-radius: 5px;
+}
+
+.deskripsi-dan-gambar-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.deskripsi-dan-gambar-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.deskripsi-dan-gambar-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.deskripsi-dan-gambar-4{
+    display: flex;
+    flex-direction: column;
+}
+
+.tampilan-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tampilan-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.tampilan-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.baris-1{
+    padding: 8px;
+}
+
+.baris-2{
+    padding: 8px;
+}
+
+.baris-3{
+    padding: 8px;
+}
+
+.baris-3{
+    padding: 8px;
+}
+
+.baris-4{
+    padding: 8px;
+}
+
+.baris-5{
+    padding: 8px;
+}
+
+.baris-6{
+    padding: 8px;
+}
+
+.baris-7{
+    padding: 8px;
+}
+
+.baris-8{
+    padding: 8px;
+}
+
+.baris-9{
+    padding: 8px;
+}
+
+.baris-10{
+    padding: 8px;
+}
+
+.baris-11{
+    padding: 8px;
 }
 
 .site-footer {
@@ -138,7 +338,7 @@ nav a{
 
 
 .author-name {
-    color: #a855f7;
+    color: #0ea5e9;
     font-weight: 600;
 }
 
