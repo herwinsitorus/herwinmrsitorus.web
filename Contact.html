@@ -13,80 +13,79 @@
     <nav class="navbar">
         <div class="nav-kiri"> <a href="index.html"> <strong>Herwin</strong> </a> </div>
 
-        <selection id="navigation">
+        <section id="navigation">
             <div class="nav-about"><a href="About.html"> <strong>About</strong> </a> </div>
             <div class="nav-project"><a href="Project.html"> <strong>Project</strong> </a> </div>
             <div class="nav-contact"><a href="Contact.html"> <strong>Contact</strong> </a> </div>
             <div class="nav-experience"><a href="experience.html"> <strong>Experience</strong> </a> </div>
-        </selection>
+        </section>
     </nav>
 
-    <h2 class="judul">Informasi Kontak</h2>
-    <p class="deskripsi">Jika Anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui form berikut. <br>Anda juga dapat
-        mengirim email ke <a href="mailto:herwin.sitorus@student.upi.edu">herwin.sitorus@student.upi.edu</a></p>
+    <div class="fade-in">
+        <h2 class="judul">Informasi Kontak</h2>
+        <p class="deskripsi">Jika Anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui form berikut. <br>Anda juga dapat mengirim email ke <a href="mailto:herwin.sitorus@student.upi.edu">herwin.sitorus@student.upi.edu</a></p>
 
-    <form class="form">
-        <table>
-            <tr>
-                <td class="baris-1" colspan="2" style="text-align: center"> <strong>Form Data Kontak</strong>
-                </td>
-            <tr>
-                <td class="baris-2" style="text-align: right;" class=" label">Nama Lengkap:</td>
-                <td class="baris-2" class="input"><input type="text" name="nama" /></td>
-            </tr>
-            <tr>
-                <td class="baris-3" style="text-align: right;" class="label">Email:</td>
-                <td class="baris-3" class="input"><input type="email" name="email" /></td>
-            </tr>
-            <tr>
-                <td class="baris-4" style="text-align: right;" class="label">Nomor Telepon:</td>
-                <td class="baris-4" class="input"><input type="number" name="Nomor Telepon" /></td>
-            </tr>
-            <tr>
-                <td class="baris-5" style="text-align: right;" class="label">Jenis Kelamin:</td>
-                <td class="baris-5" class="input"><input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki <input
-                        type="radio" name="perempuan" value="Perempuan" /> Perempuan</td>
-            </tr>
-            <tr>
-                <td class="baris-6" style="text-align: right;" class="label">Tanggal Lahir:</td>
-                <td class="baris-6" class="input"><input type="date" name="tanggal_lahir" /></td>
-            </tr>
-            <tr>
-                <td class="baris-7" style="text-align: right;" class="label">Topik Pesan :</td>
-                <td class="baris-7">
-                    <select name="Topik Pesan">
-                        <option></option>
-                        <option value="Diskusi">Diskusi</option>
-                        <option value="Kerjasama">Kerjasama</option>
-                        <option value="Pengajuan">Pengajuan</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td class="baris-8" style="text-align: right;" class="label">Jenis Pesan:</td>
-                <td class="baris-8" class="input"><input type="radio" name="Pertanyaan" value="Pertanyaan" /> Pertanyaan
-                    <input type="radio" name="Saran" value="Saran" /> Saran
-                    <input type="radio" name="Lainnya" value="Lainnya"> Lainnya
-                </td>
-            </tr>
-            <tr>
-                <td class="baris-9" style="text-align: right;" class="label">Pesan :</td>
-                <td class="baris-9" class="textarea"><textarea name="alamat" rows="5" cols="33"></textarea></td>
-            </tr>
-            <tr>
-                <td class="baris-10" style="text-align: right;" class="label">Salinan Pesan :</td>
-                <td class="baris-10"><input type="checkbox" name="Salinan Pesan" value="Kirim salinan pesan ke email saya" /> Kirim
-                    salinan pesan ke email saya </td>
-            </tr>
-            <tr>
-                <td class="baris-11" colspan="2" style="text-align: center">
-                    <input type="submit" value="Kirim Pesan" />
-                    <input type="reset" value="Reset" />
-                </td>
-            </tr>
-        </table>
-    </form>
-    <p class="deskripsi">Catatan: Karena website ini hanya mengunakan HTML, form belum terhubung ke server/database.</p>
+        <form class="form">
+            <table>
+                <tr>
+                    <td class="baris-1" colspan="2" style="text-align: center"> <strong>Form Data Kontak</strong>
+                    </td>
+                <tr>
+                    <td class="baris-2" style="text-align: right;" class=" label">Nama Lengkap:</td>
+                    <td class="baris-2" class="input"><input type="text" name="nama" /></td>
+                </tr>
+                <tr>
+                    <td class="baris-3" style="text-align: right;" class="label">Email:</td>
+                    <td class="baris-3" class="input"><input type="email" name="email" /></td>
+                </tr>
+                <tr>
+                    <td class="baris-4" style="text-align: right;" class="label">Nomor Telepon:</td>
+                    <td class="baris-4" class="input"><input type="number" name="Nomor Telepon" /></td>
+                </tr>
+                <tr>
+                    <td class="baris-5" style="text-align: right;" class="label">Jenis Kelamin:</td>
+                    <td class="baris-5" class="input"><input type="radio" name="laki-laki" value="Laki-laki" /> Laki-laki <input type="radio" name="perempuan" value="Perempuan" /> Perempuan</td>
+                </tr>
+                <tr>
+                    <td class="baris-6" style="text-align: right;" class="label">Tanggal Lahir:</td>
+                    <td class="baris-6" class="input"><input type="date" name="tanggal_lahir" /></td>
+                </tr>
+                <tr>
+                    <td class="baris-7" style="text-align: right;" class="label">Topik Pesan :</td>
+                    <td class="baris-7">
+                        <select name="Topik Pesan">
+                            <option></option>
+                            <option value="Diskusi">Diskusi</option>
+                            <option value="Kerjasama">Kerjasama</option>
+                            <option value="Pengajuan">Pengajuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="baris-8" style="text-align: right;" class="label">Jenis Pesan:</td>
+                    <td class="baris-8" class="input"><input type="radio" name="Pertanyaan" value="Pertanyaan" /> Pertanyaan
+                        <input type="radio" name="Saran" value="Saran" /> Saran
+                        <input type="radio" name="Lainnya" value="Lainnya"> Lainnya
+                    </td>
+                </tr>
+                <tr>
+                    <td class="baris-9" style="text-align: right;" class="label">Pesan :</td>
+                    <td class="baris-9" class="textarea"><textarea name="alamat" rows="5" cols="33"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="baris-10" style="text-align: right;" class="label">Salinan Pesan :</td>
+                    <td class="baris-10"><input type="checkbox" name="Salinan Pesan" value="Kirim salinan pesan ke email saya" /> Kirim salinan pesan ke email saya </td>
+                </tr>
+                <tr>
+                    <td class="baris-11" colspan="2" style="text-align: center">
+                        <input type="submit" value="Kirim Pesan" />
+                        <input type="reset" value="Reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p class="deskripsi">Catatan: Karena website ini hanya mengunakan HTML, form belum terhubung ke server/database.</p>
+    </div>
 
 </body>
 
