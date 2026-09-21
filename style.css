@@ -138,6 +138,9 @@ nav a{
     display: flex;
     justify-content: center;
     color: #555;
+    margin-left: 20px;
+    margin-right: 20px;
+
 
 }
 
@@ -291,6 +294,14 @@ nav a{
     padding: 8px;
 }
 
+.dokumentasi{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
 .site-footer {
     background-color: #00123a;
     padding: 40px 20px;
@@ -301,12 +312,10 @@ nav a{
     gap: 20px;
 }
 
-
 .social-icons {
     display: flex;
     gap: 15px;
 }
-
 
 .social-link {
     display: inline-flex;
@@ -322,20 +331,17 @@ nav a{
     transition: all 0.3s ease;
 }
 
-
 .social-link:hover {
     background-color: #ffffff;
     color: #0f172a;
     transform: translateY(-3px);
 }
 
-
 .footer-text {
     color: #94a3b8; 
     font-size: 0.9rem;
     margin: 0;
 }
-
 
 .author-name {
     color: #0ea5e9;
